@@ -1,0 +1,90 @@
+[
+  {
+    "id": 8,
+    "slug": "guias",
+    "name": "Guías de Compra y Comparativas",
+    "parent": "",
+    "description": "Comparativas técnicas, análisis de características y guías de compra para elegir la impresora 3D FDM o de resina ideal según tu nivel, presupuesto y tipo de proyecto.",
+    "count": 167
+  },
+  {
+    "id": 13,
+    "slug": "mantenimiento",
+    "name": "Mantenimiento y Cuidado",
+    "parent": "",
+    "description": "Manuales paso a paso de mantenimiento preventivo, limpieza de boquillas (nozzles), cuidado de camas calientes, lubricación de ejes y conservación de impresoras 3D.",
+    "count": 84
+  },
+  {
+    "id": 10,
+    "slug": "problemas-y-soluciones",
+    "name": "Problemas y Soluciones Técnicas",
+    "parent": "",
+    "description": "Diagnóstico y solución definitiva a los fallos más frecuentes en impresión 3D: atascos de extrusor, capas desplazadas, falta de adherencia, warping y errores térmicos.",
+    "count": 56
+  },
+  {
+    "id": 12,
+    "slug": "disenos",
+    "name": "Diseños y Proyectos 3D",
+    "parent": "",
+    "description": "Ideas rentables, modelos funcionales para el hogar, accesorios útiles, organizadores y proyectos creativos listos para fabricar y comercializar con tu impresora 3D.",
+    "count": 42
+  },
+  {
+    "id": 9,
+    "slug": "trucos",
+    "name": "Trucos y Ajustes de Impresión",
+    "parent": "",
+    "description": "Ajustes avanzados de laminado (slicer), optimización de retracción, velocidad, altura de capa y técnicas expertas para conseguir acabados profesionales.",
+    "count": 35
+  },
+  {
+    "id": 11,
+    "slug": "tutoriales-2",
+    "name": "Tutoriales de Calibración y Slicer",
+    "parent": "",
+    "description": "Guías prácticas paso a paso sobre calibración de ejes, nivelación de cama, configuración de sensores de autonivelado, cambio de filamento y dominio del software slicer.",
+    "count": 35
+  },
+  {
+    "id": 3,
+    "slug": "aplicacion",
+    "name": "Aplicaciones Industriales y Creativas",
+    "parent": "",
+    "description": "Aplicaciones reales de la impresión 3D en arquitectura, medicina, odontología, industria automotriz, educación, gastronomía, joyería y manufactura moderna.",
+    "count": 20
+  },
+  {
+    "id": 5,
+    "slug": "consejos",
+    "name": "Consejos de Optimización",
+    "parent": "",
+    "description": "Recomendaciones prácticas para ahorrar filamento, reducir el ruido, almacenar bobinas sin humedad, imprimir con TPU flexible y mejorar la estabilidad estructural.",
+    "count": 20
+  },
+  {
+    "id": 2,
+    "slug": "principios-basicos",
+    "name": "Principios Básicos",
+    "parent": "",
+    "description": "Fundamentos esenciales de la fabricación aditiva: qué es una impresora 3D, cómo funciona, partes principales, tipos de tecnologías (FDM, SLA, MSLA) y materiales.",
+    "count": 20
+  },
+  {
+    "id": 4,
+    "slug": "tutoriales",
+    "name": "Tutoriales Paso a Paso",
+    "parent": "",
+    "description": "Tutoriales detallados para principiantes y usuarios avanzados: cómo evitar el efecto warping, imprimir en múltiples colores, reciclar filamentos y proteger piezas de la humedad.",
+    "count": 20
+  },
+  {
+    "id": 7,
+    "slug": "resenas",
+    "name": "Reseñas de Impresoras 3D",
+    "parent": "",
+    "description": "Análisis a fondo de modelos destacados de impresoras 3D de filamento y resina UV: especificaciones técnicas, precisión, velocidad de impresión y ventajas competitivas.",
+    "count": 6
+  }
+]
