@@ -72,7 +72,27 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/wp-sitemap-:rest*",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
+      {
         source: "/sitemap_index.xml",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
+      {
+        source: "/post-sitemap.xml",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
+      {
+        source: "/page-sitemap.xml",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
+      {
+        source: "/category-sitemap.xml",
         destination: "/sitemap.xml",
         permanent: true,
       },
