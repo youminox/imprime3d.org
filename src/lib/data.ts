@@ -4,6 +4,12 @@ import categoriesData from "../../data/categories.json";
 
 export const SITE_NAME = "Imprime en 3D";
 export const SITE_URL = "https://imprime3d.org";
+/**
+ * Fecha estable de la última revisión editorial del contenido (sitemaps).
+ * Actualizar SOLO cuando el contenido cambie de verdad; un lastmod que cambia
+ * en cada build hace que Google ignore la señal.
+ */
+export const CONTENT_LAST_REVIEWED = "2026-11-04";
 export const SITE_DESCRIPTION =
   "Portal especializado en impresión 3D: comparativas de impresoras 3D de filamento (FDM) y resina (MSLA), mantenimiento, solución de problemas técnicos, calibración de slicer y proyectos rentables.";
 export const ADSENSE_CLIENT = "ca-pub-1070738569472471";

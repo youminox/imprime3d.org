@@ -1,9 +1,14 @@
-import { getAllPosts, getAllCategories, SITE_URL } from "@/lib/data";
+import {
+  getAllPosts,
+  getAllCategories,
+  SITE_URL,
+  CONTENT_LAST_REVIEWED,
+} from "@/lib/data";
 
 export async function GET() {
   const posts = getAllPosts();
   const categories = getAllCategories();
-  const today = new Date().toISOString().split("T")[0];
+  const today = CONTENT_LAST_REVIEWED;
 
   const urls: { loc: string; priority: string; changefreq: string }[] = [
     { loc: `${SITE_URL}/`, priority: "1.0", changefreq: "daily" },

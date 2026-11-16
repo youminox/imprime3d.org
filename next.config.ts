@@ -72,7 +72,7 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: "/wp-sitemap-:rest*",
+        source: "/wp-sitemap-:rest(.*)",
         destination: "/sitemap.xml",
         permanent: true,
       },
@@ -146,6 +146,27 @@ const nextConfig: NextConfig = {
       {
         source: "/feed",
         destination: "/",
+        permanent: true,
+      },
+      // WordPress feeds anidados (/category/x/feed/, /pagina/feed/, /cat/post/feed/)
+      {
+        source: "/comments/feed:rest(/.*)?",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/category/:slug/feed:rest(/.*)?",
+        destination: "/:slug/",
+        permanent: true,
+      },
+      {
+        source: "/:a/feed:rest(/.*)?",
+        destination: "/:a/",
+        permanent: true,
+      },
+      {
+        source: "/:a/:b/feed:rest(/.*)?",
+        destination: "/:a/:b/",
         permanent: true,
       },
       {

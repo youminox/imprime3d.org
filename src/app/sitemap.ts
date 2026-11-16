@@ -1,10 +1,15 @@
 import type { MetadataRoute } from "next";
-import { getAllPosts, getAllCategories, SITE_URL } from "@/lib/data";
+import {
+  getAllPosts,
+  getAllCategories,
+  SITE_URL,
+  CONTENT_LAST_REVIEWED,
+} from "@/lib/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts();
   const categories = getAllCategories();
-  const now = new Date();
+  const now = new Date(`${CONTENT_LAST_REVIEWED}T00:00:00.000Z`);
 
   const staticRoutes: MetadataRoute.Sitemap = [
     {
