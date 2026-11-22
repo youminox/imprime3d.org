@@ -33,6 +33,24 @@ export default function AvisoLegalPage() {
               dangerouslySetInnerHTML={{ __html: page.content }}
             />
           )}
+
+          <div className="mt-10 rounded-2xl border border-amber-300/80 bg-amber-50/70 p-6 text-sm text-slate-700 leading-relaxed">
+            <h2 className="text-base font-extrabold text-slate-900 mb-2">
+              Participación en el Programa de Afiliados de Amazon
+            </h2>
+            <p>
+              <strong>{SITE_NAME} (imprime3d.org)</strong> participa en el
+              Programa de Afiliados de Amazon EU (identificador{" "}
+              <code>imprime3d0c-21</code>) y en el Programa de Afiliados de
+              Amazon.com (identificador <code>imprime3d-20</code>), programas de
+              publicidad para afiliados diseñados para ofrecer a sitios web un
+              modo de obtener comisiones por publicidad, publicitando e
+              incluyendo enlaces a <code>Amazon.es</code> y{" "}
+              <code>Amazon.com</code>. En calidad de Afiliado de Amazon,
+              obtenemos ingresos por las compras adscritas que cumplen los
+              requisitos aplicables, sin ningún sobrecoste para el usuario.
+            </p>
+          </div>
         </div>
       </main>
       <Footer />

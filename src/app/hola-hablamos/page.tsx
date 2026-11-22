@@ -3,6 +3,8 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import AmazonAffiliateBox from "@/components/AmazonAffiliateBox";
+import { getContextualAmazonProducts } from "@/lib/amazon";
 import { getPageBySlug, SITE_NAME, SITE_URL } from "@/lib/data";
 
 export const metadata: Metadata = {
@@ -89,6 +91,22 @@ export default function HolaHablamosPage() {
               dangerouslySetInnerHTML={{ __html: page.content }}
             />
           )}
+
+          {(() => {
+            const amazonContext = getContextualAmazonProducts(
+              "hola-hablamos",
+              "guias",
+              "Impresoras 3D y Filamentos Recomendados por Charlie Lingán"
+            );
+            return (
+              <AmazonAffiliateBox
+                variant="showcase"
+                sectionTitle={amazonContext.sectionTitle}
+                sectionSubtitle={amazonContext.sectionSubtitle}
+                products={amazonContext.products}
+              />
+            );
+          })()}
         </div>
       </main>
 

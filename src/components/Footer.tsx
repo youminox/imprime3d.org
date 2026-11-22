@@ -153,10 +153,17 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 border-t border-slate-800/80 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <p>
-            © {SITE_NAME} (imprime3d.org). Todos los derechos reservados. Guías
-            técnicas y comparativas verificadas.
-          </p>
+          <div className="space-y-1 text-center sm:text-left">
+            <p>
+              © {SITE_NAME} (imprime3d.org). Todos los derechos reservados. Guías
+              técnicas y comparativas verificadas.
+            </p>
+            <p className="text-[11px] text-slate-500">
+              En calidad de Afiliado de Amazon (imprime3d0c-21 / imprime3d-20),
+              obtenemos ingresos por las compras adscritas que cumplen los
+              requisitos aplicables.
+            </p>
+          </div>
           <div className="flex items-center gap-4">
             <Link href="/sitemap.xml" className="hover:text-slate-300">
               Mapa del Sitio (XML)
